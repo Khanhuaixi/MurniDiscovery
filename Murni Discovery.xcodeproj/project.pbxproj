@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71BD0E50AF748F819E1E4F0C /* Pods_Murni_Discovery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10F79800BF2699A9D80DB0C0 /* Pods_Murni_Discovery.framework */; };
+		E00B3FF826ED191200413542 /* Success.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00B3FF726ED191200413542 /* Success.wav */; };
+		E01C9B3726EC89D700E3D177 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01C9B3626EC89D700E3D177 /* Item.swift */; };
+		E01C9B3D26EC943A00E3D177 /* ListOfItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01C9B3C26EC943A00E3D177 /* ListOfItem.swift */; };
+		E032C99C26BE3BCC00C5229A /* Outlet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E032C99B26BE3BCC00C5229A /* Outlet.swift */; };
+		E032C99F26BE3CDE00C5229A /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = E032C99E26BE3CDE00C5229A /* Contact.swift */; };
+		E032C9A326BE3D2500C5229A /* OutletDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E032C9A226BE3D2500C5229A /* OutletDetail.swift */; };
+		E034249D26F366390066CF83 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E034249C26F366380066CF83 /* GoogleService-Info.plist */; };
+		E03D78FD26FE2F3F00D6B6F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E03D78FC26FE2F3F00D6B6F9 /* LaunchScreen.storyboard */; };
+		E05E7C4726AB347D000D12E6 /* TopPickGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05E7C4626AB347D000D12E6 /* TopPickGallery.swift */; };
+		E0603D5F26E9C38F00EF4E45 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0603D5E26E9C38E00EF4E45 /* ItemDetail.swift */; };
+		E0603D9526EA173500EF4E45 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0603D9426EA173500EF4E45 /* Order.swift */; };
+		E0603DA126EA1D4900EF4E45 /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0603DA026EA1D4900EF4E45 /* OrderViewModel.swift */; };
+		E0603DA426EA1DD800EF4E45 /* OrderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0603DA326EA1DD800EF4E45 /* OrderItem.swift */; };
+		E073C07D26A9A22E002F48A6 /* Murni_DiscoveryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E073C07C26A9A22E002F48A6 /* Murni_DiscoveryApp.swift */; };
+		E073C08126A9A239002F48A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E073C08026A9A239002F48A6 /* Assets.xcassets */; };
+		E073C08426A9A239002F48A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E073C08326A9A239002F48A6 /* Preview Assets.xcassets */; };
+		E073C09826A9AD86002F48A6 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E073C09726A9AD86002F48A6 /* Menu.swift */; };
+		E073C09B26A9C768002F48A6 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E073C09A26A9C768002F48A6 /* CustomColor.swift */; };
+		E073C09F26A9E361002F48A6 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = E073C09E26A9E361002F48A6 /* Category.swift */; };
+		E07D6CB126EA38ED00083CA9 /* OrderItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07D6CB026EA38ED00083CA9 /* OrderItemView.swift */; };
+		E0AFE94626FB993D00E2146D /* OrderPayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AFE94526FB993D00E2146D /* OrderPayment.swift */; };
+		E0B854F026FE2B6200DA2194 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B854EF26FE2B6200DA2194 /* RegisterViewModel.swift */; };
+		E0B854F326FE2B7400DA2194 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B854F226FE2B7400DA2194 /* LoginViewModel.swift */; };
+		E0B854F626FE2CCB00DA2194 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B854F526FE2CCB00DA2194 /* Login.swift */; };
+		E0B854F926FE2CD800DA2194 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B854F826FE2CD800DA2194 /* Register.swift */; };
+		E0B854FC26FE2CEE00DA2194 /* TermsAndConditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B854FB26FE2CEE00DA2194 /* TermsAndConditions.swift */; };
+		E0B854FF26FE2D4900DA2194 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B854FE26FE2D4900DA2194 /* Settings.swift */; };
+		E0B8550226FE2D9E00DA2194 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B8550126FE2D9E00DA2194 /* CustomTextField.swift */; };
+		E0BEE6F526E912560044DF09 /* ItemCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BEE6F426E912560044DF09 /* ItemCardView.swift */; };
+		E0C7681E26F7A9E40035CAA0 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C7681D26F7A9E40035CAA0 /* LocationManager.swift */; };
+		E0DE4B5226BE705A004E0335 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE4B5126BE705A004E0335 /* Home.swift */; };
+		E0ED50EE26FAEEDD00897DBB /* LocationRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ED50ED26FAEEDD00897DBB /* LocationRequestView.swift */; };
+		E0FE422D26EB2B90000BB1A8 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FE422C26EB2B90000BB1A8 /* CustomTabBar.swift */; };
+		E0FE424D26EB4539000BB1A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FE424C26EB4539000BB1A8 /* ContentView.swift */; };
+		E0FE425026EB4BB3000BB1A8 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FE424F26EB4BB3000BB1A8 /* MainView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10F79800BF2699A9D80DB0C0 /* Pods_Murni_Discovery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Murni_Discovery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2990A8FE7E3060EAC176BF24 /* Pods-Murni Discovery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Murni Discovery.release.xcconfig"; path = "Target Support Files/Pods-Murni Discovery/Pods-Murni Discovery.release.xcconfig"; sourceTree = "<group>"; };
+		85F859F4119E77635D80B532 /* Pods-Murni Discovery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Murni Discovery.debug.xcconfig"; path = "Target Support Files/Pods-Murni Discovery/Pods-Murni Discovery.debug.xcconfig"; sourceTree = "<group>"; };
+		E00B3FF726ED191200413542 /* Success.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Success.wav; sourceTree = "<group>"; };
+		E01C9B3626EC89D700E3D177 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		E01C9B3C26EC943A00E3D177 /* ListOfItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfItem.swift; sourceTree = "<group>"; };
+		E032C99B26BE3BCC00C5229A /* Outlet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Outlet.swift; sourceTree = "<group>"; };
+		E032C99E26BE3CDE00C5229A /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		E032C9A226BE3D2500C5229A /* OutletDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutletDetail.swift; sourceTree = "<group>"; };
+		E034249C26F366380066CF83 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E03D78FC26FE2F3F00D6B6F9 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E05E7C4626AB347D000D12E6 /* TopPickGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPickGallery.swift; sourceTree = "<group>"; };
+		E0603D5E26E9C38E00EF4E45 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		E0603D9426EA173500EF4E45 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		E0603DA026EA1D4900EF4E45 /* OrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
+		E0603DA326EA1DD800EF4E45 /* OrderItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderItem.swift; sourceTree = "<group>"; };
+		E073C07926A9A22E002F48A6 /* Murni Discovery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Murni Discovery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E073C07C26A9A22E002F48A6 /* Murni_DiscoveryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Murni_DiscoveryApp.swift; sourceTree = "<group>"; };
+		E073C08026A9A239002F48A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E073C08326A9A239002F48A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E073C08A26A9A239002F48A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E073C09726A9AD86002F48A6 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		E073C09A26A9C768002F48A6 /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
+		E073C09E26A9E361002F48A6 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		E07D6CB026EA38ED00083CA9 /* OrderItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderItemView.swift; sourceTree = "<group>"; };
+		E0AFE94526FB993D00E2146D /* OrderPayment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderPayment.swift; sourceTree = "<group>"; };
+		E0B854EF26FE2B6200DA2194 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		E0B854F226FE2B7400DA2194 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		E0B854F526FE2CCB00DA2194 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		E0B854F826FE2CD800DA2194 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		E0B854FB26FE2CEE00DA2194 /* TermsAndConditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsAndConditions.swift; sourceTree = "<group>"; };
+		E0B854FE26FE2D4900DA2194 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		E0B8550126FE2D9E00DA2194 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		E0BEE6F426E912560044DF09 /* ItemCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCardView.swift; sourceTree = "<group>"; };
+		E0C7681D26F7A9E40035CAA0 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		E0DE4B5126BE705A004E0335 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		E0ED50ED26FAEEDD00897DBB /* LocationRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationRequestView.swift; sourceTree = "<group>"; };
+		E0FE422C26EB2B90000BB1A8 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		E0FE424C26EB4539000BB1A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E0FE424F26EB4BB3000BB1A8 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E073C07626A9A22D002F48A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71BD0E50AF748F819E1E4F0C /* Pods_Murni_Discovery.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6143DC1BAA733F4210FD9BF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85F859F4119E77635D80B532 /* Pods-Murni Discovery.debug.xcconfig */,
+				2990A8FE7E3060EAC176BF24 /* Pods-Murni Discovery.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E0603D9326EA16F300EF4E45 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E0603DA026EA1D4900EF4E45 /* OrderViewModel.swift */,
+				E0C7681D26F7A9E40035CAA0 /* LocationManager.swift */,
+				E0B854EF26FE2B6200DA2194 /* RegisterViewModel.swift */,
+				E0B854F226FE2B7400DA2194 /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E073C07026A9A22D002F48A6 = {
+			isa = PBXGroup;
+			children = (
+				E073C07B26A9A22E002F48A6 /* Murni Discovery */,
+				E073C07A26A9A22E002F48A6 /* Products */,
+				6143DC1BAA733F4210FD9BF7 /* Pods */,
+				ED6B34C60E418C11127F1295 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E073C07A26A9A22E002F48A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E073C07926A9A22E002F48A6 /* Murni Discovery.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E073C07B26A9A22E002F48A6 /* Murni Discovery */ = {
+			isa = PBXGroup;
+			children = (
+				E034249C26F366380066CF83 /* GoogleService-Info.plist */,
+				E073C09126A9A2F1002F48A6 /* Model */,
+				E073C09226A9A301002F48A6 /* View */,
+				E0603D9326EA16F300EF4E45 /* ViewModel */,
+				E073C07C26A9A22E002F48A6 /* Murni_DiscoveryApp.swift */,
+				E0FE424C26EB4539000BB1A8 /* ContentView.swift */,
+				E073C08026A9A239002F48A6 /* Assets.xcassets */,
+				E073C08A26A9A239002F48A6 /* Info.plist */,
+				E073C08226A9A239002F48A6 /* Preview Content */,
+				E00B3FF726ED191200413542 /* Success.wav */,
+			);
+			path = "Murni Discovery";
+			sourceTree = "<group>";
+		};
+		E073C08226A9A239002F48A6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E073C08326A9A239002F48A6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E073C09126A9A2F1002F48A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E073C09E26A9E361002F48A6 /* Category.swift */,
+				E05E7C4626AB347D000D12E6 /* TopPickGallery.swift */,
+				E032C99E26BE3CDE00C5229A /* Contact.swift */,
+				E01C9B3626EC89D700E3D177 /* Item.swift */,
+				E0603DA326EA1DD800EF4E45 /* OrderItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E073C09226A9A301002F48A6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E073C09A26A9C768002F48A6 /* CustomColor.swift */,
+				E0FE422C26EB2B90000BB1A8 /* CustomTabBar.swift */,
+				E0B8550126FE2D9E00DA2194 /* CustomTextField.swift */,
+				E0DE4B5126BE705A004E0335 /* Home.swift */,
+				E073C09726A9AD86002F48A6 /* Menu.swift */,
+				E01C9B3C26EC943A00E3D177 /* ListOfItem.swift */,
+				E0BEE6F426E912560044DF09 /* ItemCardView.swift */,
+				E0603D5E26E9C38E00EF4E45 /* ItemDetail.swift */,
+				E0603D9426EA173500EF4E45 /* Order.swift */,
+				E07D6CB026EA38ED00083CA9 /* OrderItemView.swift */,
+				E0ED50ED26FAEEDD00897DBB /* LocationRequestView.swift */,
+				E0AFE94526FB993D00E2146D /* OrderPayment.swift */,
+				E032C99B26BE3BCC00C5229A /* Outlet.swift */,
+				E032C9A226BE3D2500C5229A /* OutletDetail.swift */,
+				E0B854F526FE2CCB00DA2194 /* Login.swift */,
+				E0B854F826FE2CD800DA2194 /* Register.swift */,
+				E0B854FB26FE2CEE00DA2194 /* TermsAndConditions.swift */,
+				E0B854FE26FE2D4900DA2194 /* Settings.swift */,
+				E0FE424F26EB4BB3000BB1A8 /* MainView.swift */,
+				E03D78FC26FE2F3F00D6B6F9 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED6B34C60E418C11127F1295 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10F79800BF2699A9D80DB0C0 /* Pods_Murni_Discovery.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E073C07826A9A22D002F48A6 /* Murni Discovery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E073C08D26A9A239002F48A6 /* Build configuration list for PBXNativeTarget "Murni Discovery" */;
+			buildPhases = (
+				579F6C193C504119333317C3 /* [CP] Check Pods Manifest.lock */,
+				E073C07526A9A22D002F48A6 /* Sources */,
+				E073C07626A9A22D002F48A6 /* Frameworks */,
+				E073C07726A9A22D002F48A6 /* Resources */,
+				A589E521F5DFB2FCA4431269 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Murni Discovery";
+			productName = "Murni Discovery";
+			productReference = E073C07926A9A22E002F48A6 /* Murni Discovery.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E073C07126A9A22D002F48A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					E073C07826A9A22D002F48A6 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = E073C07426A9A22D002F48A6 /* Build configuration list for PBXProject "Murni Discovery" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E073C07026A9A22D002F48A6;
+			productRefGroup = E073C07A26A9A22E002F48A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E073C07826A9A22D002F48A6 /* Murni Discovery */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E073C07726A9A22D002F48A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E073C08426A9A239002F48A6 /* Preview Assets.xcassets in Resources */,
+				E034249D26F366390066CF83 /* GoogleService-Info.plist in Resources */,
+				E00B3FF826ED191200413542 /* Success.wav in Resources */,
+				E03D78FD26FE2F3F00D6B6F9 /* LaunchScreen.storyboard in Resources */,
+				E073C08126A9A239002F48A6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		579F6C193C504119333317C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Murni Discovery-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A589E521F5DFB2FCA4431269 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Murni Discovery/Pods-Murni Discovery-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Murni Discovery/Pods-Murni Discovery-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Murni Discovery/Pods-Murni Discovery-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E073C07526A9A22D002F48A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0B854FF26FE2D4900DA2194 /* Settings.swift in Sources */,
+				E07D6CB126EA38ED00083CA9 /* OrderItemView.swift in Sources */,
+				E0FE425026EB4BB3000BB1A8 /* MainView.swift in Sources */,
+				E0603DA426EA1DD800EF4E45 /* OrderItem.swift in Sources */,
+				E0B854FC26FE2CEE00DA2194 /* TermsAndConditions.swift in Sources */,
+				E032C99C26BE3BCC00C5229A /* Outlet.swift in Sources */,
+				E05E7C4726AB347D000D12E6 /* TopPickGallery.swift in Sources */,
+				E073C09B26A9C768002F48A6 /* CustomColor.swift in Sources */,
+				E073C07D26A9A22E002F48A6 /* Murni_DiscoveryApp.swift in Sources */,
+				E0FE424D26EB4539000BB1A8 /* ContentView.swift in Sources */,
+				E0DE4B5226BE705A004E0335 /* Home.swift in Sources */,
+				E073C09826A9AD86002F48A6 /* Menu.swift in Sources */,
+				E032C9A326BE3D2500C5229A /* OutletDetail.swift in Sources */,
+				E0C7681E26F7A9E40035CAA0 /* LocationManager.swift in Sources */,
+				E0B8550226FE2D9E00DA2194 /* CustomTextField.swift in Sources */,
+				E0B854F926FE2CD800DA2194 /* Register.swift in Sources */,
+				E073C09F26A9E361002F48A6 /* Category.swift in Sources */,
+				E0B854F326FE2B7400DA2194 /* LoginViewModel.swift in Sources */,
+				E0BEE6F526E912560044DF09 /* ItemCardView.swift in Sources */,
+				E0B854F626FE2CCB00DA2194 /* Login.swift in Sources */,
+				E0603D9526EA173500EF4E45 /* Order.swift in Sources */,
+				E0603D5F26E9C38F00EF4E45 /* ItemDetail.swift in Sources */,
+				E01C9B3D26EC943A00E3D177 /* ListOfItem.swift in Sources */,
+				E0ED50EE26FAEEDD00897DBB /* LocationRequestView.swift in Sources */,
+				E0FE422D26EB2B90000BB1A8 /* CustomTabBar.swift in Sources */,
+				E0B854F026FE2B6200DA2194 /* RegisterViewModel.swift in Sources */,
+				E01C9B3726EC89D700E3D177 /* Item.swift in Sources */,
+				E032C99F26BE3CDE00C5229A /* Contact.swift in Sources */,
+				E0603DA126EA1D4900EF4E45 /* OrderViewModel.swift in Sources */,
+				E0AFE94626FB993D00E2146D /* OrderPayment.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E073C08B26A9A239002F48A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E073C08C26A9A239002F48A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E073C08E26A9A239002F48A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85F859F4119E77635D80B532 /* Pods-Murni Discovery.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Murni Discovery/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Murni Discovery/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Murni-Discovery";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E073C08F26A9A239002F48A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2990A8FE7E3060EAC176BF24 /* Pods-Murni Discovery.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Murni Discovery/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Murni Discovery/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Murni-Discovery";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E073C07426A9A22D002F48A6 /* Build configuration list for PBXProject "Murni Discovery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E073C08B26A9A239002F48A6 /* Debug */,
+				E073C08C26A9A239002F48A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E073C08D26A9A239002F48A6 /* Build configuration list for PBXNativeTarget "Murni Discovery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E073C08E26A9A239002F48A6 /* Debug */,
+				E073C08F26A9A239002F48A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E073C07126A9A22D002F48A6 /* Project object */;
+}
